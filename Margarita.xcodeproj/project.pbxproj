@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD643BFA2833ED3C002FBCA1 /* MargaritaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD643BF92833ED3C002FBCA1 /* MargaritaApp.swift */; };
+		AD643BFE2833ED3D002FBCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD643BFD2833ED3D002FBCA1 /* Assets.xcassets */; };
+		AD643C012833ED3D002FBCA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD643C002833ED3D002FBCA1 /* Preview Assets.xcassets */; };
+		AD643C1A2833ED3D002FBCA1 /* MargaritaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD643C192833ED3D002FBCA1 /* MargaritaUITests.swift */; };
+		AD643C1C2833ED3D002FBCA1 /* MargaritaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD643C1B2833ED3D002FBCA1 /* MargaritaUITestsLaunchTests.swift */; };
+		AD643C3328341247002FBCA1 /* MargaritaCore in Frameworks */ = {isa = PBXBuildFile; productRef = AD643C3228341247002FBCA1 /* MargaritaCore */; };
+		AD643C3628341B92002FBCA1 /* MargaritaCore in Frameworks */ = {isa = PBXBuildFile; productRef = AD643C3528341B92002FBCA1 /* MargaritaCore */; };
+		AD643C3828341CCD002FBCA1 /* TestsCore in Frameworks */ = {isa = PBXBuildFile; productRef = AD643C3728341CCD002FBCA1 /* TestsCore */; };
+		AD9BB465283CD007000BCF88 /* MargaritaDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9BB464283CD007000BCF88 /* MargaritaDetailModel.swift */; };
+		AD9EB7002870EFCA001AC0C8 /* MargaritaDetailModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB6FF2870EFCA001AC0C8 /* MargaritaDetailModelTests.swift */; };
+		ADD7DDC42836A5FF004355AE /* MargaritaDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7DDC32836A5FF004355AE /* MargaritaDetailViewTests.swift */; };
+		ADD7DDCA2836A8F5004355AE /* MargaritasViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7DDC92836A8F5004355AE /* MargaritasViewTests.swift */; };
+		ADD7DDCC2836AAC8004355AE /* __Snapshots__ in Resources */ = {isa = PBXBuildFile; fileRef = ADD7DDCB2836AAC8004355AE /* __Snapshots__ */; };
+		ADEF4DDB28341E93006F06F6 /* MargaritasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF4DDA28341E93006F06F6 /* MargaritasModel.swift */; };
+		ADEF4DDD28341EAA006F06F6 /* MargaritasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF4DDC28341EAA006F06F6 /* MargaritasView.swift */; };
+		ADEF4DE128341EF1006F06F6 /* MargaritaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF4DE028341EF1006F06F6 /* MargaritaDetailView.swift */; };
+		ADEF4DF52835A08A006F06F6 /* MargaritasModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF4DF42835A08A006F06F6 /* MargaritasModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD643C0C2833ED3D002FBCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD643BEE2833ED3C002FBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD643BF52833ED3C002FBCA1;
+			remoteInfo = Margarita;
+		};
+		AD643C162833ED3D002FBCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD643BEE2833ED3C002FBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD643BF52833ED3C002FBCA1;
+			remoteInfo = Margarita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD643BF62833ED3C002FBCA1 /* Margarita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Margarita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD643BF92833ED3C002FBCA1 /* MargaritaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaApp.swift; sourceTree = "<group>"; };
+		AD643BFD2833ED3D002FBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD643C002833ED3D002FBCA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD643C0B2833ED3D002FBCA1 /* MargaritaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MargaritaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD643C152833ED3D002FBCA1 /* MargaritaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MargaritaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD643C192833ED3D002FBCA1 /* MargaritaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaUITests.swift; sourceTree = "<group>"; };
+		AD643C1B2833ED3D002FBCA1 /* MargaritaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD643C2C283405F8002FBCA1 /* MargaritaCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MargaritaCore; sourceTree = "<group>"; };
+		AD643C34283416DE002FBCA1 /* TestsCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TestsCore; sourceTree = "<group>"; };
+		AD9BB464283CD007000BCF88 /* MargaritaDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaDetailModel.swift; sourceTree = "<group>"; };
+		AD9EB6FF2870EFCA001AC0C8 /* MargaritaDetailModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaDetailModelTests.swift; sourceTree = "<group>"; };
+		ADD7DDC32836A5FF004355AE /* MargaritaDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaDetailViewTests.swift; sourceTree = "<group>"; };
+		ADD7DDC92836A8F5004355AE /* MargaritasViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritasViewTests.swift; sourceTree = "<group>"; };
+		ADD7DDCB2836AAC8004355AE /* __Snapshots__ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __Snapshots__; sourceTree = "<group>"; };
+		ADEF4DDA28341E93006F06F6 /* MargaritasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritasModel.swift; sourceTree = "<group>"; };
+		ADEF4DDC28341EAA006F06F6 /* MargaritasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritasView.swift; sourceTree = "<group>"; };
+		ADEF4DE028341EF1006F06F6 /* MargaritaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaDetailView.swift; sourceTree = "<group>"; };
+		ADEF4DF42835A08A006F06F6 /* MargaritasModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritasModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD643BF32833ED3C002FBCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD643C3628341B92002FBCA1 /* MargaritaCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD643C082833ED3D002FBCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD643C3328341247002FBCA1 /* MargaritaCore in Frameworks */,
+				AD643C3828341CCD002FBCA1 /* TestsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD643C122833ED3D002FBCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD643BED2833ED3C002FBCA1 = {
+			isa = PBXGroup;
+			children = (
+				AD643BF82833ED3C002FBCA1 /* Margarita */,
+				AD643C2C283405F8002FBCA1 /* MargaritaCore */,
+				AD643C0E2833ED3D002FBCA1 /* MargaritaTests */,
+				AD643C34283416DE002FBCA1 /* TestsCore */,
+				AD643C182833ED3D002FBCA1 /* MargaritaUITests */,
+				AD643BF72833ED3C002FBCA1 /* Products */,
+				AD643C292833EECF002FBCA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD643BF72833ED3C002FBCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD643BF62833ED3C002FBCA1 /* Margarita.app */,
+				AD643C0B2833ED3D002FBCA1 /* MargaritaTests.xctest */,
+				AD643C152833ED3D002FBCA1 /* MargaritaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD643BF82833ED3C002FBCA1 /* Margarita */ = {
+			isa = PBXGroup;
+			children = (
+				AD643BF92833ED3C002FBCA1 /* MargaritaApp.swift */,
+				ADEF4DDA28341E93006F06F6 /* MargaritasModel.swift */,
+				ADEF4DDC28341EAA006F06F6 /* MargaritasView.swift */,
+				AD9BB464283CD007000BCF88 /* MargaritaDetailModel.swift */,
+				ADEF4DE028341EF1006F06F6 /* MargaritaDetailView.swift */,
+				AD643BFD2833ED3D002FBCA1 /* Assets.xcassets */,
+				AD643BFF2833ED3D002FBCA1 /* Preview Content */,
+			);
+			path = Margarita;
+			sourceTree = "<group>";
+		};
+		AD643BFF2833ED3D002FBCA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD643C002833ED3D002FBCA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD643C0E2833ED3D002FBCA1 /* MargaritaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD7DDCB2836AAC8004355AE /* __Snapshots__ */,
+				ADEF4DF42835A08A006F06F6 /* MargaritasModelTests.swift */,
+				ADD7DDC92836A8F5004355AE /* MargaritasViewTests.swift */,
+				AD9EB6FF2870EFCA001AC0C8 /* MargaritaDetailModelTests.swift */,
+				ADD7DDC32836A5FF004355AE /* MargaritaDetailViewTests.swift */,
+			);
+			path = MargaritaTests;
+			sourceTree = "<group>";
+		};
+		AD643C182833ED3D002FBCA1 /* MargaritaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD643C192833ED3D002FBCA1 /* MargaritaUITests.swift */,
+				AD643C1B2833ED3D002FBCA1 /* MargaritaUITestsLaunchTests.swift */,
+			);
+			path = MargaritaUITests;
+			sourceTree = "<group>";
+		};
+		AD643C292833EECF002FBCA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD643BF52833ED3C002FBCA1 /* Margarita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD643C1F2833ED3D002FBCA1 /* Build configuration list for PBXNativeTarget "Margarita" */;
+			buildPhases = (
+				AD643BF22833ED3C002FBCA1 /* Sources */,
+				AD643BF32833ED3C002FBCA1 /* Frameworks */,
+				AD643BF42833ED3C002FBCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Margarita;
+			packageProductDependencies = (
+				AD643C3528341B92002FBCA1 /* MargaritaCore */,
+			);
+			productName = Margarita;
+			productReference = AD643BF62833ED3C002FBCA1 /* Margarita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD643C0A2833ED3D002FBCA1 /* MargaritaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD643C222833ED3D002FBCA1 /* Build configuration list for PBXNativeTarget "MargaritaTests" */;
+			buildPhases = (
+				AD643C072833ED3D002FBCA1 /* Sources */,
+				AD643C082833ED3D002FBCA1 /* Frameworks */,
+				AD643C092833ED3D002FBCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD643C0D2833ED3D002FBCA1 /* PBXTargetDependency */,
+			);
+			name = MargaritaTests;
+			packageProductDependencies = (
+				AD643C3228341247002FBCA1 /* MargaritaCore */,
+				AD643C3728341CCD002FBCA1 /* TestsCore */,
+			);
+			productName = MargaritaTests;
+			productReference = AD643C0B2833ED3D002FBCA1 /* MargaritaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD643C142833ED3D002FBCA1 /* MargaritaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD643C252833ED3D002FBCA1 /* Build configuration list for PBXNativeTarget "MargaritaUITests" */;
+			buildPhases = (
+				AD643C112833ED3D002FBCA1 /* Sources */,
+				AD643C122833ED3D002FBCA1 /* Frameworks */,
+				AD643C132833ED3D002FBCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD643C172833ED3D002FBCA1 /* PBXTargetDependency */,
+			);
+			name = MargaritaUITests;
+			productName = MargaritaUITests;
+			productReference = AD643C152833ED3D002FBCA1 /* MargaritaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD643BEE2833ED3C002FBCA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD643BF52833ED3C002FBCA1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					AD643C0A2833ED3D002FBCA1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AD643BF52833ED3C002FBCA1;
+					};
+					AD643C142833ED3D002FBCA1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AD643BF52833ED3C002FBCA1;
+					};
+				};
+			};
+			buildConfigurationList = AD643BF12833ED3C002FBCA1 /* Build configuration list for PBXProject "Margarita" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD643BED2833ED3C002FBCA1;
+			productRefGroup = AD643BF72833ED3C002FBCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD643BF52833ED3C002FBCA1 /* Margarita */,
+				AD643C0A2833ED3D002FBCA1 /* MargaritaTests */,
+				AD643C142833ED3D002FBCA1 /* MargaritaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD643BF42833ED3C002FBCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD643C012833ED3D002FBCA1 /* Preview Assets.xcassets in Resources */,
+				AD643BFE2833ED3D002FBCA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD643C092833ED3D002FBCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD7DDCC2836AAC8004355AE /* __Snapshots__ in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD643C132833ED3D002FBCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD643BF22833ED3C002FBCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEF4DDB28341E93006F06F6 /* MargaritasModel.swift in Sources */,
+				ADEF4DDD28341EAA006F06F6 /* MargaritasView.swift in Sources */,
+				ADEF4DE128341EF1006F06F6 /* MargaritaDetailView.swift in Sources */,
+				AD9BB465283CD007000BCF88 /* MargaritaDetailModel.swift in Sources */,
+				AD643BFA2833ED3C002FBCA1 /* MargaritaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD643C072833ED3D002FBCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD7DDC42836A5FF004355AE /* MargaritaDetailViewTests.swift in Sources */,
+				AD9EB7002870EFCA001AC0C8 /* MargaritaDetailModelTests.swift in Sources */,
+				ADEF4DF52835A08A006F06F6 /* MargaritasModelTests.swift in Sources */,
+				ADD7DDCA2836A8F5004355AE /* MargaritasViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD643C112833ED3D002FBCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD643C1A2833ED3D002FBCA1 /* MargaritaUITests.swift in Sources */,
+				AD643C1C2833ED3D002FBCA1 /* MargaritaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD643C0D2833ED3D002FBCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD643BF52833ED3C002FBCA1 /* Margarita */;
+			targetProxy = AD643C0C2833ED3D002FBCA1 /* PBXContainerItemProxy */;
+		};
+		AD643C172833ED3D002FBCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD643BF52833ED3C002FBCA1 /* Margarita */;
+			targetProxy = AD643C162833ED3D002FBCA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD5FCA05287089F800EF6341 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TESTING;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Testing;
+		};
+		AD5FCA06287089F800EF6341 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Margarita/Preview Content\"";
+				DEVELOPMENT_TEAM = D7765T93MS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.Margarita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Testing;
+		};
+		AD5FCA07287089F800EF6341 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7765T93MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.MargaritaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Margarita.app/Margarita";
+			};
+			name = Testing;
+		};
+		AD5FCA08287089F800EF6341 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7765T93MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.MargaritaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Margarita;
+			};
+			name = Testing;
+		};
+		AD643C1D2833ED3D002FBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD643C1E2833ED3D002FBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD643C202833ED3D002FBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Margarita/Preview Content\"";
+				DEVELOPMENT_TEAM = D7765T93MS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.Margarita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD643C212833ED3D002FBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Margarita/Preview Content\"";
+				DEVELOPMENT_TEAM = D7765T93MS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.Margarita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD643C232833ED3D002FBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7765T93MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.MargaritaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Margarita.app/Margarita";
+			};
+			name = Debug;
+		};
+		AD643C242833ED3D002FBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7765T93MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.MargaritaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Margarita.app/Margarita";
+			};
+			name = Release;
+		};
+		AD643C262833ED3D002FBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7765T93MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.MargaritaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Margarita;
+			};
+			name = Debug;
+		};
+		AD643C272833ED3D002FBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7765T93MS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesis-mobile.MargaritaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Margarita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD643BF12833ED3C002FBCA1 /* Build configuration list for PBXProject "Margarita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD643C1D2833ED3D002FBCA1 /* Debug */,
+				AD5FCA05287089F800EF6341 /* Testing */,
+				AD643C1E2833ED3D002FBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD643C1F2833ED3D002FBCA1 /* Build configuration list for PBXNativeTarget "Margarita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD643C202833ED3D002FBCA1 /* Debug */,
+				AD5FCA06287089F800EF6341 /* Testing */,
+				AD643C212833ED3D002FBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD643C222833ED3D002FBCA1 /* Build configuration list for PBXNativeTarget "MargaritaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD643C232833ED3D002FBCA1 /* Debug */,
+				AD5FCA07287089F800EF6341 /* Testing */,
+				AD643C242833ED3D002FBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD643C252833ED3D002FBCA1 /* Build configuration list for PBXNativeTarget "MargaritaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD643C262833ED3D002FBCA1 /* Debug */,
+				AD5FCA08287089F800EF6341 /* Testing */,
+				AD643C272833ED3D002FBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD643C3228341247002FBCA1 /* MargaritaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MargaritaCore;
+		};
+		AD643C3528341B92002FBCA1 /* MargaritaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MargaritaCore;
+		};
+		AD643C3728341CCD002FBCA1 /* TestsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD643BEE2833ED3C002FBCA1 /* Project object */;
+}

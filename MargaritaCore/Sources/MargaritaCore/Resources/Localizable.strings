@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Margarita
+
+  Created by Damjan on 18.05.2022.
+  
+*/
+
+"Error_General" = "Something went wrong.";
+"Error_New_Margaritas_Not_Available" = "New margaritas are not currently available.";
+"Error_No_Internet" = "No Internet connection.";
+"Error_Title" = "Whoops";
+"Loading" = "LOADING";
+"Margaritas_Title" = "Margaritas";
+"No_Margarita" = "No Margarita";
+"No_Margaritas" = "No Margaritas";
+"Ok" = "Ok";
